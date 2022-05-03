@@ -1,0 +1,200 @@
+/*Fonte*/
+
+/*HEADER*/
+header {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    backdrop-filter: blur(3px);
+    position: fixed;
+    margin-top: -2%;
+
+}
+/*LOGO*/
+.Logo img{
+    width: 20%;
+    height: 20%;
+    margin: 3em;
+    
+}
+/**/
+.Logo ul{
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    cursor: pointer;    
+}
+.Logo li{
+    margin: 20px;
+    padding: 0 6em;
+   
+}
+
+/* Body*/
+body{
+    
+    background-image: linear-gradient(45deg, #79d7e8, #000000, #122f31);
+    background-size: 300%;
+    animation: cores 2s ease infinite;
+ 
+}
+
+
+
+ @keyframes cores
+{
+  50%{
+     background-position: 0% 50%;
+     }
+     50% {
+         background-position: 100% 50%;
+     }
+     100% {
+         background-position: 0% 50%;
+     }
+ }
+ 
+
+.tudo{
+    background-color: #000000;
+    margin: 36px;
+    border-radius: 15px;
+}
+.Banner img{
+    height: 600px;
+    width: 100%;
+ 
+}
+.BanTxt{
+    top: 20%;
+    position: absolute;
+    color: rgb(255, 255, 255);
+    padding: 10%;
+    display: flex;
+    margin-left: 34%;
+    flex-direction: column;
+
+}
+
+/*CARD SOBRE MIM*/
+.SobreMim{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.content{
+    display:flex;
+    justify-content: start;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh ;
+    margin-left: 5%;
+}
+.card{
+    background-color: rgb(22, 22, 22);
+    border-radius: 15px;
+}
+.TopCard{
+    padding: 5px 20px 20px;
+    color: #ffffff;
+    justify-content: center;
+    background-color: #000000;
+}
+
+.txtSobre{
+    color:#ffffff;
+    justify-content: center;
+    margin-right: 140px;
+
+}
+.SobreMedia{
+    background-image: url(../images/perfil.jpg) center/cover;
+    height: 300px;
+    width: 100%;
+}
+/*HABILIDADES*/
+.HabMedia{
+    background:url(../images/Futuros\ Estudos.png) center/cover;
+    height: 400px;
+    width: 700px;
+    border-radius: 20px;
+    margin-left: 1%;
+}   
+.EndCard{
+    background: none;
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    justify-content: center;
+}
+
+/*HABILIDADES*/
+
+.Habilidades{
+    background: url(../images/folhasB.jpg) center/cover;
+    width: 100%;
+    rotate: 90;
+}
+/*HOBBIES*/
+.Hobbies{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+
+.JudoMedia{
+    background: url(../images/Hjudo.jpg) center/cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+.MuayMedia{
+    background: url(../images/mauayH.jpg) center/cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+.BoxMedia{
+    background: url(../images/boxH.jpg) center/cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+.JiuMedia{
+    background: url(../images/jiuH.jpg) center/cover;
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+.EndCard{
+    justify-content: center;
+    background-color: #000000;
+}
+
+/*PROJETOS*/
+.Projetos img {
+    height: 500px;
+    width: 500px;
+    margin: 10% 0 20% 40%;
+}
+
+
+/*FOOTER*/
+footer{
+    background-color: #000000;
+}
+footer li .fa{
+   color: rgb(255, 255, 255);
+}
+.RedesSc ul{
+    display: flex;
+    background-color: rgb(0, 0, 0);
+    justify-content: center;
+    height: 50px;
+    padding: 14px;
+    font-size: 40px;
+}
+.RedesSc li{
+    margin-left: 60px;
+}
